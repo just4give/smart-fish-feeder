@@ -19,10 +19,16 @@ WiFi enabled aquarium fish feeder using ESP8266 and AWS Cloud
  - Two lambda functions, fishFeeder and fishFeederAlert
  - Two Cloud Watch Events to trigger above lambda functions 
  
+ ## Architecture Diagram
+ 
+ <img width="958" alt="Screen Shot 2019-06-11 at 3 37 24 PM" src="https://user-images.githubusercontent.com/9275193/59313640-dbed2d80-8c7f-11e9-93dd-bf977d43ee61.png">
+
  
  ## ESP8266 Diagram
  
  ![fish_feeder_dia](https://user-images.githubusercontent.com/9275193/52969510-9cbc6900-337e-11e9-8689-b5135bfdf46c.png)
+ 
+ 
  
  ## External Arduino Libraries used
  
