@@ -15,7 +15,7 @@ WiFi enabled aquarium fish feeder using ESP8266 and AWS Cloud
  - IAM user with access key and secret with full access to IoT
  - A lambda role with full access to IoT and SNS
  - A SNS topic with subcription to SMS
- - One AWS IoT Thing named FishFeeder (watch this video for step by step instruction https://youtu.be/MCXXoyV_j4w ) 
+ - One AWS IoT Thing named FishFeeder (watch this video for step by step instruction on how to create IoT Shadow in AWS https://youtu.be/MCXXoyV_j4w ) 
  - Two lambda functions, fishFeeder and fishFeederAlert
  - Two Cloud Watch Events to trigger above lambda functions 
  
