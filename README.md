@@ -24,3 +24,7 @@ WiFi enabled aquarium fish feeder using ESP8266 and AWS Cloud
  
  ![fish_feeder_dia](https://user-images.githubusercontent.com/9275193/52969510-9cbc6900-337e-11e9-8689-b5135bfdf46c.png)
  
+ ## External Arduino Libraries used
+ 
+ - Wifi Manager. [Click](https://github.com/tzapu/WiFiManager) here for detail instruction how to add it to Arduino IDE
+ - AWS SDK. This is a [forked](https://github.com/just4give/aws-sdk-arduino) from original aws-sdk-ardunio library as I was facing some issues with SHA1 foot print. You may use the original. 
