@@ -27,11 +27,16 @@ def lambda_handler(event, context):
     
     if feeded != 'true':
         sns.publish(
-            TopicArn='arn:aws:sns:us-east-1:xxxxxxx:fishFeederAlert',
-            Message='Something went wrong. Your smart feeder did not run.',
+            TopicArn='arn:aws:sns:us-east-1:xxxxx:fish-feeder-alert',
+            Message='Error. Your smart feeder did not run.',
             Subject='FishFeeder',
         )
-    
+    else:
+        sns.publish(
+            TopicArn='arn:aws:sns:us-east-1:xxxxx:fish-feeder-alert',
+            Message='Success. fishes were feeded.',
+            Subject='FishFeeder',
+        )
     
     
     # TODO implement
